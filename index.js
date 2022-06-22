@@ -12,12 +12,12 @@ const respostas = [
   "Minha resposta é não.",
   "Você pode contar com isso.",
   "Melhor não te dizer agora.",
-  "A meu ver, sim.",
+  "Tudo indica que sim.",
   "Minhas fontes dizem não.",
   "Provavelmente.",
   "Não é possível prever agora.",
   "Perspectiva boa.",
-  "As perspectivas não são tão boas.",
+  "Não coloque tanta fé nisso.",
   "Sim.",
   "Concentre-se e pergunte novamente.",
   "Sinais apontam que sim.",
@@ -29,7 +29,7 @@ const respostas = [
 function fazerPergunta(){
 
   if(inputPergunta.value == ""){
-    alert("Digite sua pergunta")
+    alert("Opa! Digite sua pergunta")
     return
   }
 
